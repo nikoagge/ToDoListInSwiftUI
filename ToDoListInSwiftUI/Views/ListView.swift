@@ -8,19 +8,25 @@
 import SwiftUI
 
 struct ListView: View {
-    @State var listRowsTitle = [
-        "First Title",
-        "Second Title",
-        "Third Title"
+    @State var listItems = [
+        ListItem(
+            title: "First Title",
+            isCompleted: false
+        ),
+        ListItem(
+            title: "Second Title",
+            isCompleted: true
+        ),
+        ListItem(
+            title: "Third Title",
+            isCompleted: false
+        )
     ]
     
     var body: some View {
         List {
-            ForEach(
-                listRowsTitle,
-                id: \.self
-            ) { listRowTitle in
-                ListRowView(listRowTitle: listRowTitle)
+            ForEach(listItems) { listItem in
+                ListItemView(listItem: listItem)
             }
         }
         .listStyle(PlainListStyle())
