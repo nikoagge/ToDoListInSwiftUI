@@ -14,6 +14,7 @@
 		17655A662AA3A880003AEEEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17655A652AA3A880003AEEEE /* Preview Assets.xcassets */; };
 		17655A6E2AA3A9AF003AEEEE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17655A6D2AA3A9AF003AEEEE /* ListView.swift */; };
 		17655A702AA3B11F003AEEEE /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17655A6F2AA3B11F003AEEEE /* ListItemView.swift */; };
+		179530F32AA7425400B9B66C /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179530F22AA7425400B9B66C /* UserDefaultsKeys.swift */; };
 		17BB89892AA4C042009A5C30 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB89882AA4C042009A5C30 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		17655A652AA3A880003AEEEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17655A6D2AA3A9AF003AEEEE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		17655A6F2AA3B11F003AEEEE /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		179530F22AA7425400B9B66C /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		17BB89882AA4C042009A5C30 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 		17655A5D2AA3A87E003AEEEE /* ToDoListInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				179530F12AA7423400B9B66C /* Enums */,
 				170969732AA6208B00E24B2A /* Models */,
 				170969762AA62E3D00E24B2A /* ViewModels */,
 				17655A6C2AA3A9A3003AEEEE /* Views */,
@@ -101,6 +104,14 @@
 				17BB89882AA4C042009A5C30 /* AddView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		179530F12AA7423400B9B66C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				179530F22AA7425400B9B66C /* UserDefaultsKeys.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				170969752AA620A300E24B2A /* ListItem.swift in Sources */,
+				179530F32AA7425400B9B66C /* UserDefaultsKeys.swift in Sources */,
 				17BB89892AA4C042009A5C30 /* AddView.swift in Sources */,
 				170969782AA62E6600E24B2A /* ListViewModel.swift in Sources */,
 				17655A5F2AA3A87E003AEEEE /* ToDoListInSwiftUIApp.swift in Sources */,

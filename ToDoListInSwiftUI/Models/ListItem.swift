@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct ListItem: Identifiable {
+struct ListItem:
+    Identifiable,
+    Codable {
     let id: String
     let title: String
     let isCompleted:Bool
