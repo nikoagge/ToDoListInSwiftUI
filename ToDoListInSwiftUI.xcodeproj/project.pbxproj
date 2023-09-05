@@ -15,6 +15,7 @@
 		17655A6E2AA3A9AF003AEEEE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17655A6D2AA3A9AF003AEEEE /* ListView.swift */; };
 		17655A702AA3B11F003AEEEE /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17655A6F2AA3B11F003AEEEE /* ListItemView.swift */; };
 		179530F32AA7425400B9B66C /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179530F22AA7425400B9B66C /* UserDefaultsKeys.swift */; };
+		179530F52AA7482500B9B66C /* NoListItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179530F42AA7482500B9B66C /* NoListItemsView.swift */; };
 		17BB89892AA4C042009A5C30 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB89882AA4C042009A5C30 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		17655A6D2AA3A9AF003AEEEE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		17655A6F2AA3B11F003AEEEE /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		179530F22AA7425400B9B66C /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		179530F42AA7482500B9B66C /* NoListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoListItemsView.swift; sourceTree = "<group>"; };
 		17BB89882AA4C042009A5C30 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,9 +101,10 @@
 		17655A6C2AA3A9A3003AEEEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				17BB89882AA4C042009A5C30 /* AddView.swift */,
 				17655A6D2AA3A9AF003AEEEE /* ListView.swift */,
 				17655A6F2AA3B11F003AEEEE /* ListItemView.swift */,
-				17BB89882AA4C042009A5C30 /* AddView.swift */,
+				179530F42AA7482500B9B66C /* NoListItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				170969782AA62E6600E24B2A /* ListViewModel.swift in Sources */,
 				17655A5F2AA3A87E003AEEEE /* ToDoListInSwiftUIApp.swift in Sources */,
 				17655A6E2AA3A9AF003AEEEE /* ListView.swift in Sources */,
+				179530F52AA7482500B9B66C /* NoListItemsView.swift in Sources */,
 				17655A702AA3B11F003AEEEE /* ListItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
