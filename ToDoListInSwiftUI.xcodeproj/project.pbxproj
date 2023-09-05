@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		170969752AA620A300E24B2A /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170969742AA620A300E24B2A /* ListItem.swift */; };
+		170969782AA62E6600E24B2A /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170969772AA62E6600E24B2A /* ListViewModel.swift */; };
 		17655A5F2AA3A87E003AEEEE /* ToDoListInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17655A5E2AA3A87E003AEEEE /* ToDoListInSwiftUIApp.swift */; };
 		17655A632AA3A880003AEEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17655A622AA3A880003AEEEE /* Assets.xcassets */; };
 		17655A662AA3A880003AEEEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17655A652AA3A880003AEEEE /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		170969742AA620A300E24B2A /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		170969772AA62E6600E24B2A /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		17655A5B2AA3A87E003AEEEE /* ToDoListInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17655A5E2AA3A87E003AEEEE /* ToDoListInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListInSwiftUIApp.swift; sourceTree = "<group>"; };
 		17655A622AA3A880003AEEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		170969762AA62E3D00E24B2A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				170969772AA62E6600E24B2A /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		17655A522AA3A87E003AEEEE = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				170969732AA6208B00E24B2A /* Models */,
+				170969762AA62E3D00E24B2A /* ViewModels */,
 				17655A6C2AA3A9A3003AEEEE /* Views */,
 				17655A5E2AA3A87E003AEEEE /* ToDoListInSwiftUIApp.swift */,
 				17655A622AA3A880003AEEEE /* Assets.xcassets */,
@@ -164,6 +175,7 @@
 			files = (
 				170969752AA620A300E24B2A /* ListItem.swift in Sources */,
 				17BB89892AA4C042009A5C30 /* AddView.swift in Sources */,
+				170969782AA62E6600E24B2A /* ListViewModel.swift in Sources */,
 				17655A5F2AA3A87E003AEEEE /* ToDoListInSwiftUIApp.swift in Sources */,
 				17655A6E2AA3A9AF003AEEEE /* ListView.swift in Sources */,
 				17655A702AA3B11F003AEEEE /* ListItemView.swift in Sources */,
